@@ -1,3 +1,3 @@
 #!/bin/bash
-service httpd start
-service mysqld start
+sudo service httpd start
+sudo service mysqld start
