@@ -12,9 +12,6 @@ hooks:
     - location: scripts/start_server
       timeout: 300
       runas: root
-    - location: scripts/create_test_db
-      timeout: 300
-      runas: root
   ApplicationStop:
     - location: scripts/stop_server
       timeout: 300
